@@ -158,7 +158,7 @@ export default function Home() {
             ? m.message.content.map((c: any) => c.text || '').join('')
             : '';
         // 跳过 /reset、/clear 等系统命令，它们不产生 trajectory
-        if (text.startsWith('/')) return;
+        if (text.startsWith('/reset') || text.startsWith('/clear')) return;
         userMsgIndices.push(idx);
       }
     });
