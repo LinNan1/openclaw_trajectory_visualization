@@ -20,7 +20,7 @@
 
 ```bash
 # 克隆仓库
-git clone <repo-url>
+git clone git@github.com:LinNan1/openclaw_trajectory_visualization.git
 cd openclaw_trajectory_visualization
 
 # 安装依赖
