@@ -1,0 +1,39 @@
+{
+  "name": "openclaw_trajectory_visualization",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -w src/server -x tsx src/server/main.ts",
+    "start": "NODE_ENV=production tsx src/server/main.ts",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.1",
+    "clsx": "^2.1.1",
+    "express": "^5.1.0",
+    "lucide-react": "^1.18.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.17.0",
+    "remark-gfm": "^4.0.1",
+    "tailwind-merge": "^3.6.0",
+    "tailwindcss": "^4.3.1",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3",
+    "vite-express": "*",
+    "ws": "^8.21.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.2",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "@types/ws": "^8.18.1",
+    "@vitejs/plugin-react": "^4.4.1",
+    "concurrently": "^10.0.3",
+    "nodemon": "^3.1.10",
+    "vite": "^6.3.3"
+  }
+}
